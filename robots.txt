@@ -1,0 +1,12 @@
+User-agent: *
+Sitemap: http://www.munaripr.com/sitemap.xml
+Allow: /css/
+Allow: /img/
+Allow: /include/
+Allow: /js/
+Allow: /stats/
+Allow: /index.php
+Allow: /favicon_1.ico
+Disallow: /cgi-bin/
+Disallow: /backup/
+Disallow: /admin/

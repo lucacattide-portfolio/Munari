@@ -1,0 +1,12 @@
+/* Webfont: Gotham-XLight */@font-face {
+    font-family: 'GothamXLight';
+    src: url('Gotham-XLight.eot'); /* IE9 Compat Modes */
+    src: url('Gotham-XLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Gotham-XLight.woff') format('woff'), /* Modern Browsers */
+         url('Gotham-XLight.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Gotham-XLight.svg#Gotham-XLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

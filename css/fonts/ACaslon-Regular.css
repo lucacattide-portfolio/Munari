@@ -1,0 +1,12 @@
+/* Webfont: ACaslon-Regular */@font-face {
+    font-family: 'ACaslonRegular';
+    src: url('ACaslon-Regular.eot'); /* IE9 Compat Modes */
+    src: url('ACaslon-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('ACaslon-Regular.woff') format('woff'), /* Modern Browsers */
+         url('ACaslon-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('ACaslon-Regular.svg#ACaslon-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

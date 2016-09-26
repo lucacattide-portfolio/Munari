@@ -1,0 +1,12 @@
+/* Webfont: Gotham-Thin */@font-face {
+    font-family: 'GothamThin';
+    src: url('Gotham-Thin.eot'); /* IE9 Compat Modes */
+    src: url('Gotham-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Gotham-Thin.woff') format('woff'), /* Modern Browsers */
+         url('Gotham-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Gotham-Thin.svg#Gotham-Thin') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

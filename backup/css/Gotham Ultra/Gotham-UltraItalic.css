@@ -1,0 +1,12 @@
+/* Webfont: Gotham-UltraItalic */@font-face {
+    font-family: 'GothamUltra';
+    src: url('Gotham-UltraItalic.eot'); /* IE9 Compat Modes */
+    src: url('Gotham-UltraItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Gotham-UltraItalic.woff') format('woff'), /* Modern Browsers */
+         url('Gotham-UltraItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Gotham-UltraItalic.svg#Gotham-UltraItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

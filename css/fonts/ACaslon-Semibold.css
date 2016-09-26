@@ -1,0 +1,12 @@
+/* Webfont: ACaslon-Semibold */@font-face {
+    font-family: 'ACaslonSemibold';
+    src: url('ACaslon-Semibold.eot'); /* IE9 Compat Modes */
+    src: url('ACaslon-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('ACaslon-Semibold.woff') format('woff'), /* Modern Browsers */
+         url('ACaslon-Semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('ACaslon-Semibold.svg#ACaslon-Semibold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

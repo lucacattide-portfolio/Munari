@@ -1,0 +1,414 @@
+/************  INCLUDE FILE  **************/
+@import url("normalize.css");
+@import url("Gotham/Gotham-Bold.css");
+@import url("Gotham/Gotham-BoldItalic.css");
+@import url("Gotham/Gotham-Medium.css");
+@import url("Gotham/Gotham-MediumItalic.css");
+@import url("Gotham Thin/Gotham-Thin.css");
+@import url("Gotham Light/Gotham-LightItalic.css");
+@import url("font-awesome.css");
+
+
+
+
+/************  CSS  **************/
+html,body{ 
+  width:100%; 
+  height:100%;
+  background:rgba(0,0,0,1.00);
+  overflow:hidden;
+}
+
+.coming{
+	position:fixed;
+	left:0px;
+	top:0px;
+}
+
+.coming h2{
+	font-size:1.800rem;
+	color:rgba(254,254,254,1.00);
+	padding: 1.300rem 2.000rem;
+	font-weight:100;
+	font-family: 'GothamThin';
+}
+
+.coming h2 strong{  font-family: 'Gotham'; }
+
+.logo{
+	max-width:800px;
+	position:relative;
+	margin-top:20%;
+	transition:all 0.3s ease-in;
+}
+
+
+.logo.active{
+	max-width:600px;
+	position:relative;
+	margin-top:15%;
+	transition:all 0.3s ease-in;
+}
+
+.logo img{ width:100%; }
+
+
+.profile{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:5%;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all 0.3s ease-in;
+	max-height:60px;
+	display:inline-block;
+	margin-right:30px;
+}
+
+.profile h3{ font-weight:100 ; }
+
+.profile i{
+	margin-right:10px;
+	margin-top:0px;
+	transition:all 0.3s ease-in;
+	display:inline-block
+}
+
+
+
+.clients{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:5%;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all 0.3s ease-in;
+	max-height:60px;
+	display:inline-block;
+	margin-right:20px;
+}
+
+.clients h3{ font-weight:100; }
+
+
+
+.clients i{
+	margin-right:10px;
+	margin-top:0px;
+	transition:all 0.3s ease-in;
+	display:inline-block
+}
+
+
+.contacts a{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+}
+
+
+.contacts{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:5%;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all 0.3s ease-in;
+	max-height:60px;
+	display:inline-block;
+}
+
+
+
+.contacts i{
+	margin-right:10px;
+	margin-top:0px;
+	transition:all 0.3s ease-in;
+	display:inline-block
+}
+
+
+
+
+.bloccoA,bloccoB{ position:absolute; width:100%; bottom:0px; height:0px;   transition:all 0.5s ease-in; }
+
+.bloccoA.active,bloccoB.active{ height:400px; transition:all 0.5s ease-in;  }
+
+.txt{ 
+  max-width:600px;
+  height:0px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+ /* margin-top:5%;*/
+  overflow:hidden;
+  transition:all 0.3s ease-in;
+  
+}
+
+
+
+.txt.active{ 
+  max-width:600px;
+  height:400px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+/* margin-top:5%;*/
+  overflow:hidden;
+  transition:all 0.2s ease-in;
+
+  
+}
+
+.txt p{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-size:1.100rem;
+	line-height:1.600rem;
+	
+}
+
+
+
+
+
+.txt2{ 
+  max-width:600px;
+  height:0px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  /* margin-top:5%;*/
+  overflow:hidden;
+  transition:all 0.3s ease-in;
+   text-align:center;
+
+  
+}
+
+
+
+.txt2.active{ 
+  max-width:600px;
+  height:400px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+/* margin-top:5%;*/
+  overflow:hidden;
+  transition:all 0.2s ease-in;
+  text-align:center;
+
+  
+}
+
+.txt2 p{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-size:1.100rem;
+	line-height:1.600rem;
+	
+}
+
+.txt2 a{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-size:1.000rem;
+	line-height:1.600rem;
+	margin-right:20px;
+	text-decoration:none;
+}
+
+.backE{
+	height:25%;
+	position:fixed;
+	width:100%; 
+	top:0px;
+}
+
+
+@media all and (max-width:800px){
+	 
+ .logo{
+	max-width:700px;
+	position:relative;
+	margin-top:20%;
+	transition:all 0.3s ease-in;
+}
+
+.logo.active{
+	max-width:500px;
+	position:relative;
+	margin-top:15%;
+	transition:all 0.3s ease-in;
+}
+	 
+	
+}
+
+
+@media all and (max-width:700px){
+	
+	
+ .logo{
+	max-width:500px;
+	position:relative;
+	margin-top:20%;
+	transition:all 0.3s ease-in;
+}
+
+.logo.active{
+	max-width:300px;
+	position:relative;
+	margin-top:15%;
+	transition:all 0.3s ease-in;
+}
+		
+	
+}
+
+
+@media all and (max-width:600px){
+	
+	
+ .logo{
+	max-width:300px;
+	position:relative;
+	margin-top:20%;
+	transition:all 0.3s ease-in;
+}
+
+.logo.active{
+	max-width:300px;
+	position:relative;
+	margin-top:15%;
+	transition:all 0.3s ease-in;
+}
+		
+	
+}
+
+@media all and (max-width:500px){
+	
+.profile{
+	color:rgba(255,255,255,1.00);
+	font-size:0.700rem;
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:5%;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all 0.3s ease-in;
+	max-height:60px;
+	display:inline-block;
+	margin-right:30px;
+}
+
+
+.clients{
+	color:rgba(255,255,255,1.00);
+	font-size:0.700rem;
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:5%;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all 0.3s ease-in;
+	max-height:60px;
+	display:inline-block;
+	margin-right:20px;
+}
+	
+	
+.contacts{
+	color:rgba(255,255,255,1.00);
+	font-size:0.700rem;
+	font-family: 'GothamThin';
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:5%;
+	cursor:pointer;
+	overflow:hidden;
+	transition:all 0.3s ease-in;
+	max-height:60px;
+	display:inline-block;
+}
+
+.coming h2{
+	font-size:1.300rem;
+	color:rgba(254,254,254,1.00);
+	padding: 0.200rem 0.900rem;
+	font-weight:100;
+	font-family: 'GothamThin';
+}
+
+ .logo{
+	max-width:300px;
+	position:relative;
+	margin-top:25%;
+	transition:all 0.3s ease-in;
+}
+
+.logo.active{
+	max-width:300px;
+	position:relative;
+	margin-top:25%;
+	transition:all 0.3s ease-in;
+}
+
+.txt2{ 
+  max-width:600px;
+  height:0px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  /* margin-top:5%;*/
+  overflow:hidden;
+  transition:all 0.3s ease-in;
+  text-align:center;
+  padding:0px;
+}
+
+.txt2.active{  padding:10px; }
+
+.txt{ 
+  max-width:600px;
+  height:0px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+ /* margin-top:5%;*/
+  overflow:hidden;
+  transition:all 0.3s ease-in;
+  padding:0px;
+  
+}
+
+
+
+.txt.active{ 
+  padding:10px;
+}
+
+.txt p{
+	color:rgba(255,255,255,1.00);
+	font-family: 'GothamThin';
+	font-size:0.800rem;
+	line-height:1.400rem;
+	
+}
+	
+
+}

@@ -1,0 +1,12 @@
+/* Webfont: AdobeCaslon-Italic2 */@font-face {
+    font-family: 'ACaslonRegular';
+    src: url('AdobeCaslon-Italic2.eot'); /* IE9 Compat Modes */
+    src: url('AdobeCaslon-Italic2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('AdobeCaslon-Italic2.woff') format('woff'), /* Modern Browsers */
+         url('AdobeCaslon-Italic2.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('AdobeCaslon-Italic2.svg#AdobeCaslon-Italic2') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

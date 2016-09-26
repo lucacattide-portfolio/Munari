@@ -1,0 +1,12 @@
+/* Webfont: ACaslon-Italic */@font-face {
+    font-family: 'ACaslonItalic';
+    src: url('ACaslon-Italic.eot'); /* IE9 Compat Modes */
+    src: url('ACaslon-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('ACaslon-Italic.woff') format('woff'), /* Modern Browsers */
+         url('ACaslon-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('ACaslon-Italic.svg#ACaslon-Italic') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
