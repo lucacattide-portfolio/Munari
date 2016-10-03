@@ -101,10 +101,12 @@ function inizializza() {
 	// Animazione Sfondo - Mobile
 	
 	controlloSetAnimaSfondo(); // Invocazione Funzione Controllo Impostazione Animazione Sfondo
+	ridimensionaFoto(); // Invocazione Funzione Graceful Degradation Immagini
 	
 	$(window).on("resize", function() {
 		
 		controlloSetAnimaSfondo(); // Invocazione Funzione Controllo Impostazione Animazione Sfondo
+		ridimensionaFoto(); // Invocazione Funzione Graceful Degradation Immagini
 		
 	});
 		
@@ -1599,6 +1601,23 @@ function initMap() {
   
     puntaMappa = mappa;
 	  
+}
+
+
+// Funzione Ridimensiona Foto
+
+function ridimensionaFoto() {
+	
+	if ($(window).width() > 1920) { // Se siamo su una risoluzione di 27"
+		
+		$("li[rel='foto_1'] img").attr("src", "img/about_me_pic_1a.jpg");
+		
+	} else { // Altrimenti riadatta risoluzione
+		
+		$("li[rel='foto_1'] img").attr("src", "img/about_me_pic_1.jpg");
+		
+	}
+	
 }
 
 //-->
