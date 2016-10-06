@@ -352,6 +352,17 @@
             <span class="indirizzo">
             
     	       Via Savona n° 123,<br />20144 Milano
+                              
+               <a class="email prima" href="mailto:daniel@munaripr.com?subject=contacts | Munari Comunicazione" title="contacts | Munari Comunicazione"> 
+               
+               		daniel@munaripr.com
+                    
+               </a>
+               <a class="email" href="mailto:martina.rolla@munaripr.com?subject=contacts | Munari Comunicazione" title="contacts | Munari Comunicazione"> 
+               
+               		martina.rolla@munaripr.com
+                    
+               </a>
             
 	        </span>
             <span class="credits">

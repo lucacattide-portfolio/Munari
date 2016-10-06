@@ -1161,6 +1161,17 @@ a:link, a:active, a:visited
 	margin-top: 1em;
 }
 
+.email
+{
+	display: block;
+	position: relative;
+	transition: all .3s ease-in-out;
+}
+
+.email:hover { opacity: .7; }
+
+.email.prima{ margin-top: 1em; }
+
 .credits
 {
 	display: block;
@@ -2701,7 +2712,7 @@ padding-bottom: 14em;
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 480px) {
 
-#mCSB_1_container.mCSB_container { padding-bottom: 14em; }
+#mCSB_1_container.mCSB_container { padding-bottom: 16em; }
 
 #mCSB_2_container.mCSB_container { padding-bottom: 22em; }
 
