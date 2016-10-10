@@ -1170,7 +1170,7 @@ a:link, a:active, a:visited
 
 .email:hover { opacity: .7; }
 
-.email.prima{ margin-top: 1em; }
+.email.prima { margin-top: 1em; }
 
 .credits
 {
@@ -2537,6 +2537,10 @@ body { font-size: 12px; }
 #mCSB_2_container.mCSB_container { padding-bottom: 14em; }
 
 #mCSB_3_container.mCSB_container { padding-bottom: 14em; }
+
+.indirizzo { width: 280px; }
+
+.credits { margin-top: 1em; }
 }
 
 @media all and (max-width: 320px) {

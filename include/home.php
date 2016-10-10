@@ -212,7 +212,7 @@
         
         <p class="mCustomScrollbar" data-mcs-theme="munari">
         
-        	My name is Daniel Munari, I’m a communication specialist.<br /><br />My plan is to find new ways of communicating.<br />My aim is to promote and spread passions.<br />My tools are professional skills and meticulous care.<br />My strength lies in my experience.<br /><br />I work since 1999 for clients of the fashion, design, lifestyle, beauty and art area. Image building, visual communication, public relations, press office: this is my job.<br /><br />I love playing with perception.<br /><br />How the world perceives what our client is, wants to be, and can become. This is my mission. To be pursued with custom-made strategies, a meticulous attention to details, intimate familiarity with the company and its creative and productive processes. Knowing the market's demands, its principal actors, consumers, and critics. <br />It is a matter of sensibility, talent, and energy. Every story is the inspiration for a new path to follow. Every path leads to a  single goal: brand consolidation. 
+        	My name is Daniel Munari, I am a communication specialist.<br /><br />My plan is to find new ways of communicating.<br />My aim is to promote and spread passion.<br />My tools are professional skills and meticulous care.<br />My strength lies in my experience.<br /><br />I have worked since 1999 for clients in the fashion, design, lifestyle, beauty and art areas. Image building, visual communication, public relations, press office: this is my job.<br /><br />I love playing with perception, to tell the world who our client is, wants to be, and can become.<br /><br />My ultimate mission is to be pursued with custom-made strategies, a meticulous attention to details, intimate familiarity with the company and its creative and productive processes. Knowing the market demand, its principal actors, consumers, and critics. <br />It is a matter of sensibility, talent, and energy. Every story is the inspiration for a new path to follow. Every path leads to a single goal: brand consolidation.
         
         </p>
         
@@ -351,7 +351,7 @@
             </span>
             <span class="indirizzo">
             
-    	       Via Savona n° 123,<br />20144 Milano
+    	       Via Savona n° 123, 20144 Milano
                               
                <a class="email prima" href="mailto:daniel@munaripr.com?subject=contacts | Munari Comunicazione" title="contacts | Munari Comunicazione"> 
                
